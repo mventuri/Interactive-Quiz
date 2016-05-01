@@ -1,0 +1,15 @@
+var score = 0
+
+var guess = prompt('What is phishing?\n1. Computer virus\n2. Corrupt website\n3. Junk email\n4. Identity theft scheme')
+
+if (guess == '4')
+  score = score + 1
+
+guess = prompt('What is a firewall?\n1. Antivirus program\n2. Internet blocker\n3. Internet filter\n4. Internet logger')
+
+if (guess == '3')
+  score = score + 1
+  
+alert ('Your score is ' + score)
+
+// See the preview at https://www.codeavengers.com/c/mventuri/quiz
